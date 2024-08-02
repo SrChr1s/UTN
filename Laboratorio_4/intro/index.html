@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSX</title>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <script type="text/babel">
+        const rootEl = document.querySelector("#root");
+        
+        const root = ReactDOM.createRoot(rootEl);
+
+        /*
+        function App() {
+          return (
+            <>
+                <h1>{persona.name}</h1>
+                <h2>{persona.lastName}</h2>
+                <ul>{techs.map((tech, i) => (
+                  <li key={i}>{tech}</li>
+                  ))}
+                </ul>
+            </>
+          );
+        }
+        
+        const t = (
+          <>
+          <App/>
+          <App/>
+          <App/>
+          <App/>
+          <App/>
+          </>
+        )
+        */
+
+        function App() {
+          // hook -> react -> use
+          const [counter, setCounter] = React.useState(0);
+
+          const handleClick = () => {
+            setCounter(counter + 1);
+          }
+          
+          return (
+            <>
+              <p>Contador: {counter}</p>
+              <button onClick={handleClick}>Incrementar+</button>
+            </>
+          );
+        }
+        root.render(<App />);
+
+
+    </script>
+
+
+</body>
+</html>
