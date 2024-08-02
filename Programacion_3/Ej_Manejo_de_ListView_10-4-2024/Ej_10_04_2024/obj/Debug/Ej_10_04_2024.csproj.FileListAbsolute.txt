@@ -1,0 +1,10 @@
+C:\Users\csalazarontiveros\source\repos\Ej_10_04_2024\Ej_10_04_2024\bin\Debug\Ej_10_04_2024.exe.config
+C:\Users\csalazarontiveros\source\repos\Ej_10_04_2024\Ej_10_04_2024\bin\Debug\Ej_10_04_2024.exe
+C:\Users\csalazarontiveros\source\repos\Ej_10_04_2024\Ej_10_04_2024\bin\Debug\Ej_10_04_2024.pdb
+C:\Users\csalazarontiveros\source\repos\Ej_10_04_2024\Ej_10_04_2024\obj\Debug\Ej_10_04_2024.csproj.AssemblyReference.cache
+C:\Users\csalazarontiveros\source\repos\Ej_10_04_2024\Ej_10_04_2024\obj\Debug\Ej_10_04_2024.frmEjListado.resources
+C:\Users\csalazarontiveros\source\repos\Ej_10_04_2024\Ej_10_04_2024\obj\Debug\Ej_10_04_2024.Properties.Resources.resources
+C:\Users\csalazarontiveros\source\repos\Ej_10_04_2024\Ej_10_04_2024\obj\Debug\Ej_10_04_2024.csproj.GenerateResource.cache
+C:\Users\csalazarontiveros\source\repos\Ej_10_04_2024\Ej_10_04_2024\obj\Debug\Ej_10_04_2024.csproj.CoreCompileInputs.cache
+C:\Users\csalazarontiveros\source\repos\Ej_10_04_2024\Ej_10_04_2024\obj\Debug\Ej_10_04_2024.exe
+C:\Users\csalazarontiveros\source\repos\Ej_10_04_2024\Ej_10_04_2024\obj\Debug\Ej_10_04_2024.pdb

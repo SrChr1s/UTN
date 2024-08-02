@@ -1,0 +1,152 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Christian\\Desktop\\csharputn\\!Programacion3\\JuegoMemoria\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F9BF9808-A004-405C-9372-5B2E0F95B322}|JuegoMemoria\\JuegoMemoria.csproj|c:\\users\\christian\\desktop\\csharputn\\!programacion3\\juegomemoria\\juegomemoria\\winner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9BF9808-A004-405C-9372-5B2E0F95B322}|JuegoMemoria\\JuegoMemoria.csproj|solutionrelative:juegomemoria\\winner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9BF9808-A004-405C-9372-5B2E0F95B322}|JuegoMemoria\\JuegoMemoria.csproj|c:\\users\\christian\\desktop\\csharputn\\!programacion3\\juegomemoria\\juegomemoria\\winner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F9BF9808-A004-405C-9372-5B2E0F95B322}|JuegoMemoria\\JuegoMemoria.csproj|solutionrelative:juegomemoria\\winner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9BF9808-A004-405C-9372-5B2E0F95B322}|JuegoMemoria\\JuegoMemoria.csproj|c:\\users\\christian\\desktop\\csharputn\\!programacion3\\juegomemoria\\juegomemoria\\juegomemoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9BF9808-A004-405C-9372-5B2E0F95B322}|JuegoMemoria\\JuegoMemoria.csproj|solutionrelative:juegomemoria\\juegomemoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9BF9808-A004-405C-9372-5B2E0F95B322}|JuegoMemoria\\JuegoMemoria.csproj|C:\\Users\\Christian\\Desktop\\csharputn\\!Programacion3\\JuegoMemoria\\juegomemoria\\intro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F9BF9808-A004-405C-9372-5B2E0F95B322}|JuegoMemoria\\JuegoMemoria.csproj|solutionrelative:juegomemoria\\intro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9BF9808-A004-405C-9372-5B2E0F95B322}|JuegoMemoria\\JuegoMemoria.csproj|C:\\Users\\Christian\\Desktop\\csharputn\\!Programacion3\\JuegoMemoria\\juegomemoria\\intro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9BF9808-A004-405C-9372-5B2E0F95B322}|JuegoMemoria\\JuegoMemoria.csproj|solutionrelative:juegomemoria\\intro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9BF9808-A004-405C-9372-5B2E0F95B322}|JuegoMemoria\\JuegoMemoria.csproj|C:\\Users\\Christian\\Desktop\\csharputn\\!Programacion3\\JuegoMemoria\\juegomemoria\\juegomemoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F9BF9808-A004-405C-9372-5B2E0F95B322}|JuegoMemoria\\JuegoMemoria.csproj|solutionrelative:juegomemoria\\juegomemoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9BF9808-A004-405C-9372-5B2E0F95B322}|JuegoMemoria\\JuegoMemoria.csproj|C:\\Users\\Christian\\Desktop\\csharputn\\!Programacion3\\JuegoMemoria\\juegomemoria\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F9BF9808-A004-405C-9372-5B2E0F95B322}|JuegoMemoria\\JuegoMemoria.csproj|solutionrelative:juegomemoria\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9BF9808-A004-405C-9372-5B2E0F95B322}|JuegoMemoria\\JuegoMemoria.csproj|C:\\Users\\Christian\\Desktop\\csharputn\\!Programacion3\\JuegoMemoria\\juegomemoria\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9BF9808-A004-405C-9372-5B2E0F95B322}|JuegoMemoria\\JuegoMemoria.csproj|solutionrelative:juegomemoria\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Winner.cs",
+              "DocumentMoniker": "C:\\Users\\Christian\\Desktop\\csharputn\\!Programacion3\\JuegoMemoria\\JuegoMemoria\\Winner.cs",
+              "RelativeDocumentMoniker": "JuegoMemoria\\Winner.cs",
+              "ToolTip": "C:\\Users\\Christian\\Desktop\\csharputn\\!Programacion3\\JuegoMemoria\\JuegoMemoria\\Winner.cs",
+              "RelativeToolTip": "JuegoMemoria\\Winner.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA8wBcAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T23:27:00.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Winner.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Christian\\Desktop\\csharputn\\!Programacion3\\JuegoMemoria\\JuegoMemoria\\Winner.cs",
+              "RelativeDocumentMoniker": "JuegoMemoria\\Winner.cs",
+              "ToolTip": "C:\\Users\\Christian\\Desktop\\csharputn\\!Programacion3\\JuegoMemoria\\JuegoMemoria\\Winner.cs [Dise\u00F1o]",
+              "RelativeToolTip": "JuegoMemoria\\Winner.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T23:20:54.867Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\Christian\\Desktop\\csharputn\\!Programacion3\\JuegoMemoria\\JuegoMemoria\\Menu.cs",
+              "RelativeDocumentMoniker": "JuegoMemoria\\Menu.cs",
+              "ToolTip": "C:\\Users\\Christian\\Desktop\\csharputn\\!Programacion3\\JuegoMemoria\\JuegoMemoria\\Menu.cs",
+              "RelativeToolTip": "JuegoMemoria\\Menu.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAvwCEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T04:31:05.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Menu.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Christian\\Desktop\\csharputn\\!Programacion3\\JuegoMemoria\\JuegoMemoria\\Menu.cs",
+              "RelativeDocumentMoniker": "JuegoMemoria\\Menu.cs",
+              "ToolTip": "C:\\Users\\Christian\\Desktop\\csharputn\\!Programacion3\\JuegoMemoria\\JuegoMemoria\\Menu.cs [Dise\u00F1o]",
+              "RelativeToolTip": "JuegoMemoria\\Menu.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T04:19:46.775Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JuegoMemoria.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Christian\\Desktop\\csharputn\\!Programacion3\\JuegoMemoria\\JuegoMemoria\\JuegoMemoria.cs",
+              "RelativeDocumentMoniker": "JuegoMemoria\\JuegoMemoria.cs",
+              "ToolTip": "C:\\Users\\Christian\\Desktop\\csharputn\\!Programacion3\\JuegoMemoria\\JuegoMemoria\\JuegoMemoria.cs [Dise\u00F1o]",
+              "RelativeToolTip": "JuegoMemoria\\JuegoMemoria.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T17:37:24.542Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JuegoMemoria.cs",
+              "DocumentMoniker": "C:\\Users\\Christian\\Desktop\\csharputn\\!Programacion3\\JuegoMemoria\\JuegoMemoria\\JuegoMemoria.cs",
+              "RelativeDocumentMoniker": "JuegoMemoria\\JuegoMemoria.cs",
+              "ToolTip": "C:\\Users\\Christian\\Desktop\\csharputn\\!Programacion3\\JuegoMemoria\\JuegoMemoria\\JuegoMemoria.cs",
+              "RelativeToolTip": "JuegoMemoria\\JuegoMemoria.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAiwGkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T03:59:16.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Intro.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Christian\\Desktop\\csharputn\\!Programacion3\\JuegoMemoria\\JuegoMemoria\\Intro.cs",
+              "RelativeDocumentMoniker": "JuegoMemoria\\Intro.cs",
+              "ToolTip": "C:\\Users\\Christian\\Desktop\\csharputn\\!Programacion3\\JuegoMemoria\\JuegoMemoria\\Intro.cs [Dise\u00F1o]",
+              "RelativeToolTip": "JuegoMemoria\\Intro.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T04:47:47.761Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Intro.cs",
+              "DocumentMoniker": "C:\\Users\\Christian\\Desktop\\csharputn\\!Programacion3\\JuegoMemoria\\JuegoMemoria\\Intro.cs",
+              "RelativeDocumentMoniker": "JuegoMemoria\\Intro.cs",
+              "ToolTip": "C:\\Users\\Christian\\Desktop\\csharputn\\!Programacion3\\JuegoMemoria\\JuegoMemoria\\Intro.cs",
+              "RelativeToolTip": "JuegoMemoria\\Intro.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAnwBcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T04:47:49.099Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

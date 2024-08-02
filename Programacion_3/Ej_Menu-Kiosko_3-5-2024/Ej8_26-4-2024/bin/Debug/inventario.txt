@@ -1,0 +1,5 @@
+Mango;Frutas;Góndola;True
+Fresas;Frutas;Góndola;True
+Cloro;Limpieza;Depósito;False
+Ternera;Carnes;Refrigerador;True
+Tomate;Verduras;Góndola;False

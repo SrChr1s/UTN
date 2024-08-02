@@ -1,0 +1,12 @@
+C:\Users\csalazarontiveros\source\repos\Ejercicio5_27_3_2024\Ejercicio5_27_3_2024\bin\Debug\Ejercicio5_27_3_2024.exe.config
+C:\Users\csalazarontiveros\source\repos\Ejercicio5_27_3_2024\Ejercicio5_27_3_2024\bin\Debug\Ejercicio5_27_3_2024.exe
+C:\Users\csalazarontiveros\source\repos\Ejercicio5_27_3_2024\Ejercicio5_27_3_2024\bin\Debug\Ejercicio5_27_3_2024.pdb
+C:\Users\csalazarontiveros\source\repos\Ejercicio5_27_3_2024\Ejercicio5_27_3_2024\obj\Debug\Ejercicio5_27_3_2024.csproj.AssemblyReference.cache
+C:\Users\csalazarontiveros\source\repos\Ejercicio5_27_3_2024\Ejercicio5_27_3_2024\obj\Debug\Ejercicio5_27_3_2024.frmHabilitacion.resources
+C:\Users\csalazarontiveros\source\repos\Ejercicio5_27_3_2024\Ejercicio5_27_3_2024\obj\Debug\Ejercicio5_27_3_2024.Properties.Resources.resources
+C:\Users\csalazarontiveros\source\repos\Ejercicio5_27_3_2024\Ejercicio5_27_3_2024\obj\Debug\Ejercicio5_27_3_2024.csproj.GenerateResource.cache
+C:\Users\csalazarontiveros\source\repos\Ejercicio5_27_3_2024\Ejercicio5_27_3_2024\obj\Debug\Ejercicio5_27_3_2024.csproj.CoreCompileInputs.cache
+C:\Users\csalazarontiveros\source\repos\Ejercicio5_27_3_2024\Ejercicio5_27_3_2024\obj\Debug\Ejercicio5_27_3_2024.exe
+C:\Users\csalazarontiveros\source\repos\Ejercicio5_27_3_2024\Ejercicio5_27_3_2024\obj\Debug\Ejercicio5_27_3_2024.pdb
+C:\Users\csalazarontiveros\source\repos\Ejercicio5_27_3_2024\Ejercicio5_27_3_2024\obj\Debug\Ejercicio5_27_3_2024.frmVisualizar.resources
+C:\Users\csalazarontiveros\source\repos\Ejercicio5_27_3_2024\Ejercicio5_27_3_2024\obj\Debug\Ejercicio5_27_3_2024.frmPrincipal.resources

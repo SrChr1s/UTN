@@ -1,0 +1,11 @@
+C:\Users\csalazarontiveros\source\repos\PrimerParcial\PrimerParcial\bin\Debug\PrimerParcial.exe.config
+C:\Users\csalazarontiveros\source\repos\PrimerParcial\PrimerParcial\bin\Debug\PrimerParcial.exe
+C:\Users\csalazarontiveros\source\repos\PrimerParcial\PrimerParcial\bin\Debug\PrimerParcial.pdb
+C:\Users\csalazarontiveros\source\repos\PrimerParcial\PrimerParcial\obj\Debug\PrimerParcial.csproj.AssemblyReference.cache
+C:\Users\csalazarontiveros\source\repos\PrimerParcial\PrimerParcial\obj\Debug\PrimerParcial.frmParcial.resources
+C:\Users\csalazarontiveros\source\repos\PrimerParcial\PrimerParcial\obj\Debug\PrimerParcial.Properties.Resources.resources
+C:\Users\csalazarontiveros\source\repos\PrimerParcial\PrimerParcial\obj\Debug\PrimerParcial.csproj.GenerateResource.cache
+C:\Users\csalazarontiveros\source\repos\PrimerParcial\PrimerParcial\obj\Debug\PrimerParcial.csproj.CoreCompileInputs.cache
+C:\Users\csalazarontiveros\source\repos\PrimerParcial\PrimerParcial\obj\Debug\PrimerParcial.exe
+C:\Users\csalazarontiveros\source\repos\PrimerParcial\PrimerParcial\obj\Debug\PrimerParcial.pdb
+C:\Users\csalazarontiveros\source\repos\PrimerParcial\PrimerParcial\obj\Debug\PrimerParcial.frmPresentacion.resources

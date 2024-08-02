@@ -1,0 +1,10 @@
+C:\Users\csalazarontiveros\source\repos\Programacion3_20_3_2024\Programacion3_20_3_2024\bin\Debug\Programacion3_20_3_2024.exe.config
+C:\Users\csalazarontiveros\source\repos\Programacion3_20_3_2024\Programacion3_20_3_2024\bin\Debug\Programacion3_20_3_2024.exe
+C:\Users\csalazarontiveros\source\repos\Programacion3_20_3_2024\Programacion3_20_3_2024\bin\Debug\Programacion3_20_3_2024.pdb
+C:\Users\csalazarontiveros\source\repos\Programacion3_20_3_2024\Programacion3_20_3_2024\obj\Debug\Programacion3_20_3_2024.csproj.AssemblyReference.cache
+C:\Users\csalazarontiveros\source\repos\Programacion3_20_3_2024\Programacion3_20_3_2024\obj\Debug\Programacion3_20_3_2024.FrmEjer1.resources
+C:\Users\csalazarontiveros\source\repos\Programacion3_20_3_2024\Programacion3_20_3_2024\obj\Debug\Programacion3_20_3_2024.Properties.Resources.resources
+C:\Users\csalazarontiveros\source\repos\Programacion3_20_3_2024\Programacion3_20_3_2024\obj\Debug\Programacion3_20_3_2024.csproj.GenerateResource.cache
+C:\Users\csalazarontiveros\source\repos\Programacion3_20_3_2024\Programacion3_20_3_2024\obj\Debug\Programacion3_20_3_2024.csproj.CoreCompileInputs.cache
+C:\Users\csalazarontiveros\source\repos\Programacion3_20_3_2024\Programacion3_20_3_2024\obj\Debug\Programacion3_20_3_2024.exe
+C:\Users\csalazarontiveros\source\repos\Programacion3_20_3_2024\Programacion3_20_3_2024\obj\Debug\Programacion3_20_3_2024.pdb
