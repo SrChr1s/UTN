@@ -1,0 +1,14 @@
+C:\Users\Chris\source\repos\Programacion_Archivos\Programacion_Archivos\bin\Debug\Programacion_Archivos.exe.config
+C:\Users\Chris\source\repos\Programacion_Archivos\Programacion_Archivos\bin\Debug\Programacion_Archivos.exe
+C:\Users\Chris\source\repos\Programacion_Archivos\Programacion_Archivos\bin\Debug\Programacion_Archivos.pdb
+C:\Users\Chris\source\repos\Programacion_Archivos\Programacion_Archivos\obj\Debug\Programacion_Archivos.csproj.AssemblyReference.cache
+C:\Users\Chris\source\repos\Programacion_Archivos\Programacion_Archivos\obj\Debug\Programacion_Archivos.csproj.CoreCompileInputs.cache
+C:\Users\Chris\source\repos\Programacion_Archivos\Programacion_Archivos\obj\Debug\Programacion_Archivos.exe
+C:\Users\Chris\source\repos\Programacion_Archivos\Programacion_Archivos\obj\Debug\Programacion_Archivos.pdb
+F:\Programación\Programacion_Archivos\Programacion_Archivos\bin\Debug\Programacion_Archivos.exe.config
+F:\Programación\Programacion_Archivos\Programacion_Archivos\bin\Debug\Programacion_Archivos.exe
+F:\Programación\Programacion_Archivos\Programacion_Archivos\bin\Debug\Programacion_Archivos.pdb
+F:\Programación\Programacion_Archivos\Programacion_Archivos\obj\Debug\Programacion_Archivos.csprojResolveAssemblyReference.cache
+F:\Programación\Programacion_Archivos\Programacion_Archivos\obj\Debug\Programacion_Archivos.csproj.CoreCompileInputs.cache
+F:\Programación\Programacion_Archivos\Programacion_Archivos\obj\Debug\Programacion_Archivos.exe
+F:\Programación\Programacion_Archivos\Programacion_Archivos\obj\Debug\Programacion_Archivos.pdb

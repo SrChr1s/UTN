@@ -1,0 +1,9 @@
+ABC-123;Martillo;100;20;Phillips;1000
+ABC-124;Tarugo;100;20;Phillips;1000
+ABC-125;Tornillos;100;20;Phillips;1000
+ABC-126;Tuercas;100;20;Delwalt;1000
+ABC-127;Alambre;100;20;Phillips;1000
+ABC-128;Cemento;100;20;Delwalt;1000
+ABC-129;Clavos;100;20;Delwalt;1000
+ABC-130;Taladro;100;20;Genius;1000
+ADS-321;Prueba Producto;250;25;Generico;2500

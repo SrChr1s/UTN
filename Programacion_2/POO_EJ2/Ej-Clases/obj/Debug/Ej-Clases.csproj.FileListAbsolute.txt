@@ -1,0 +1,7 @@
+C:\Users\csalazarontiveros\source\repos\Ej-Clases\Ej-Clases\bin\Debug\Ej-Clases.exe.config
+C:\Users\csalazarontiveros\source\repos\Ej-Clases\Ej-Clases\bin\Debug\Ej-Clases.exe
+C:\Users\csalazarontiveros\source\repos\Ej-Clases\Ej-Clases\bin\Debug\Ej-Clases.pdb
+C:\Users\csalazarontiveros\source\repos\Ej-Clases\Ej-Clases\obj\Debug\Ej-Clases.csprojResolveAssemblyReference.cache
+C:\Users\csalazarontiveros\source\repos\Ej-Clases\Ej-Clases\obj\Debug\Ej-Clases.csproj.CoreCompileInputs.cache
+C:\Users\csalazarontiveros\source\repos\Ej-Clases\Ej-Clases\obj\Debug\Ej-Clases.exe
+C:\Users\csalazarontiveros\source\repos\Ej-Clases\Ej-Clases\obj\Debug\Ej-Clases.pdb

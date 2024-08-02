@@ -1,0 +1,7 @@
+C:\Users\Chris\source\repos\Control_Stock\Control_Stock\bin\Debug\Control_Stock.exe.config
+C:\Users\Chris\source\repos\Control_Stock\Control_Stock\bin\Debug\Control_Stock.exe
+C:\Users\Chris\source\repos\Control_Stock\Control_Stock\bin\Debug\Control_Stock.pdb
+C:\Users\Chris\source\repos\Control_Stock\Control_Stock\obj\Debug\Control_Stock.csproj.AssemblyReference.cache
+C:\Users\Chris\source\repos\Control_Stock\Control_Stock\obj\Debug\Control_Stock.csproj.CoreCompileInputs.cache
+C:\Users\Chris\source\repos\Control_Stock\Control_Stock\obj\Debug\Control_Stock.exe
+C:\Users\Chris\source\repos\Control_Stock\Control_Stock\obj\Debug\Control_Stock.pdb

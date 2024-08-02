@@ -1,0 +1,7 @@
+F:\Programación\Punteros\Punteros\bin\Debug\Punteros.exe.config
+F:\Programación\Punteros\Punteros\bin\Debug\Punteros.exe
+F:\Programación\Punteros\Punteros\bin\Debug\Punteros.pdb
+F:\Programación\Punteros\Punteros\obj\Debug\Punteros.csprojResolveAssemblyReference.cache
+F:\Programación\Punteros\Punteros\obj\Debug\Punteros.csproj.CoreCompileInputs.cache
+F:\Programación\Punteros\Punteros\obj\Debug\Punteros.exe
+F:\Programación\Punteros\Punteros\obj\Debug\Punteros.pdb

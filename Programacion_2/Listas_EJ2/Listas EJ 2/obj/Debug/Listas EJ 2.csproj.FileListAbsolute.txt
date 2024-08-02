@@ -1,0 +1,14 @@
+F:\Programación\Listas EJ 2\Listas EJ 2\bin\Debug\Listas EJ 2.exe.config
+F:\Programación\Listas EJ 2\Listas EJ 2\bin\Debug\Listas EJ 2.exe
+F:\Programación\Listas EJ 2\Listas EJ 2\bin\Debug\Listas EJ 2.pdb
+F:\Programación\Listas EJ 2\Listas EJ 2\obj\Debug\Listas EJ 2.csprojResolveAssemblyReference.cache
+F:\Programación\Listas EJ 2\Listas EJ 2\obj\Debug\Listas EJ 2.csproj.CoreCompileInputs.cache
+F:\Programación\Listas EJ 2\Listas EJ 2\obj\Debug\Listas EJ 2.exe
+F:\Programación\Listas EJ 2\Listas EJ 2\obj\Debug\Listas EJ 2.pdb
+C:\Users\Chris\Desktop\csharputn\# Projects - Programacion\Listas EJ 2\Listas EJ 2\bin\Debug\Listas EJ 2.exe.config
+C:\Users\Chris\Desktop\csharputn\# Projects - Programacion\Listas EJ 2\Listas EJ 2\bin\Debug\Listas EJ 2.exe
+C:\Users\Chris\Desktop\csharputn\# Projects - Programacion\Listas EJ 2\Listas EJ 2\bin\Debug\Listas EJ 2.pdb
+C:\Users\Chris\Desktop\csharputn\# Projects - Programacion\Listas EJ 2\Listas EJ 2\obj\Debug\Listas EJ 2.csproj.AssemblyReference.cache
+C:\Users\Chris\Desktop\csharputn\# Projects - Programacion\Listas EJ 2\Listas EJ 2\obj\Debug\Listas EJ 2.csproj.CoreCompileInputs.cache
+C:\Users\Chris\Desktop\csharputn\# Projects - Programacion\Listas EJ 2\Listas EJ 2\obj\Debug\Listas EJ 2.exe
+C:\Users\Chris\Desktop\csharputn\# Projects - Programacion\Listas EJ 2\Listas EJ 2\obj\Debug\Listas EJ 2.pdb

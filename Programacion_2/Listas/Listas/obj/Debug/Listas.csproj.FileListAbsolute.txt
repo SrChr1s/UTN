@@ -1,0 +1,7 @@
+F:\Programación\Listas\Listas\bin\Debug\Listas.exe.config
+F:\Programación\Listas\Listas\bin\Debug\Listas.exe
+F:\Programación\Listas\Listas\bin\Debug\Listas.pdb
+F:\Programación\Listas\Listas\obj\Debug\Listas.csprojResolveAssemblyReference.cache
+F:\Programación\Listas\Listas\obj\Debug\Listas.csproj.CoreCompileInputs.cache
+F:\Programación\Listas\Listas\obj\Debug\Listas.exe
+F:\Programación\Listas\Listas\obj\Debug\Listas.pdb

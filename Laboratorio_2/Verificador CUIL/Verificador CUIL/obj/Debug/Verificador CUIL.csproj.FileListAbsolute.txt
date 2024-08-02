@@ -1,0 +1,36 @@
+C:\Users\Christian\source\repos\Verificador CUIL\Verificador CUIL\bin\Debug\Verificador CUIL.exe.config
+C:\Users\Christian\source\repos\Verificador CUIL\Verificador CUIL\bin\Debug\Verificador CUIL.exe
+C:\Users\Christian\source\repos\Verificador CUIL\Verificador CUIL\bin\Debug\Verificador CUIL.pdb
+C:\Users\Christian\source\repos\Verificador CUIL\Verificador CUIL\obj\Debug\Verificador CUIL.csproj.AssemblyReference.cache
+C:\Users\Christian\source\repos\Verificador CUIL\Verificador CUIL\obj\Debug\Verificador CUIL.csproj.SuggestedBindingRedirects.cache
+C:\Users\Christian\source\repos\Verificador CUIL\Verificador CUIL\obj\Debug\Verificador CUIL.csproj.CoreCompileInputs.cache
+C:\Users\Christian\source\repos\Verificador CUIL\Verificador CUIL\obj\Debug\Verificador CUIL.exe
+C:\Users\Christian\source\repos\Verificador CUIL\Verificador CUIL\obj\Debug\Verificador CUIL.pdb
+D:\Programas C#\Verificador CUIL\Verificador CUIL\bin\Debug\Verificador CUIL.exe.config
+D:\Programas C#\Verificador CUIL\Verificador CUIL\bin\Debug\Verificador CUIL.exe
+D:\Programas C#\Verificador CUIL\Verificador CUIL\bin\Debug\Verificador CUIL.pdb
+D:\Programas C#\Verificador CUIL\Verificador CUIL\obj\Debug\Verificador CUIL.csproj.AssemblyReference.cache
+D:\Programas C#\Verificador CUIL\Verificador CUIL\obj\Debug\Verificador CUIL.csproj.CoreCompileInputs.cache
+D:\Programas C#\Verificador CUIL\Verificador CUIL\obj\Debug\Verificador CUIL.exe
+D:\Programas C#\Verificador CUIL\Verificador CUIL\obj\Debug\Verificador CUIL.pdb
+D:\Laboratorio\Verificador CUIL\Verificador CUIL\bin\Debug\Verificador CUIL.exe.config
+D:\Laboratorio\Verificador CUIL\Verificador CUIL\bin\Debug\Verificador CUIL.exe
+D:\Laboratorio\Verificador CUIL\Verificador CUIL\bin\Debug\Verificador CUIL.pdb
+D:\Laboratorio\Verificador CUIL\Verificador CUIL\obj\Debug\Verificador CUIL.csproj.AssemblyReference.cache
+D:\Laboratorio\Verificador CUIL\Verificador CUIL\obj\Debug\Verificador CUIL.csproj.CoreCompileInputs.cache
+D:\Laboratorio\Verificador CUIL\Verificador CUIL\obj\Debug\Verificador CUIL.exe
+D:\Laboratorio\Verificador CUIL\Verificador CUIL\obj\Debug\Verificador CUIL.pdb
+F:\Laboratorio\Verificador CUIL\Verificador CUIL\bin\Debug\Verificador CUIL.exe.config
+F:\Laboratorio\Verificador CUIL\Verificador CUIL\bin\Debug\Verificador CUIL.exe
+F:\Laboratorio\Verificador CUIL\Verificador CUIL\bin\Debug\Verificador CUIL.pdb
+F:\Laboratorio\Verificador CUIL\Verificador CUIL\obj\Debug\Verificador CUIL.csprojResolveAssemblyReference.cache
+F:\Laboratorio\Verificador CUIL\Verificador CUIL\obj\Debug\Verificador CUIL.csproj.CoreCompileInputs.cache
+F:\Laboratorio\Verificador CUIL\Verificador CUIL\obj\Debug\Verificador CUIL.exe
+F:\Laboratorio\Verificador CUIL\Verificador CUIL\obj\Debug\Verificador CUIL.pdb
+C:\Users\Chris\Desktop\csharputn\# Projects - Laboratorio\Verificador CUIL\Verificador CUIL\bin\Debug\Verificador CUIL.exe.config
+C:\Users\Chris\Desktop\csharputn\# Projects - Laboratorio\Verificador CUIL\Verificador CUIL\bin\Debug\Verificador CUIL.exe
+C:\Users\Chris\Desktop\csharputn\# Projects - Laboratorio\Verificador CUIL\Verificador CUIL\bin\Debug\Verificador CUIL.pdb
+C:\Users\Chris\Desktop\csharputn\# Projects - Laboratorio\Verificador CUIL\Verificador CUIL\obj\Debug\Verificador CUIL.csproj.AssemblyReference.cache
+C:\Users\Chris\Desktop\csharputn\# Projects - Laboratorio\Verificador CUIL\Verificador CUIL\obj\Debug\Verificador CUIL.csproj.CoreCompileInputs.cache
+C:\Users\Chris\Desktop\csharputn\# Projects - Laboratorio\Verificador CUIL\Verificador CUIL\obj\Debug\Verificador CUIL.exe
+C:\Users\Chris\Desktop\csharputn\# Projects - Laboratorio\Verificador CUIL\Verificador CUIL\obj\Debug\Verificador CUIL.pdb
