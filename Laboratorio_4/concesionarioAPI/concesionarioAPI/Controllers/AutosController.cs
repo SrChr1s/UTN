@@ -1,6 +1,5 @@
 ﻿using concesionarioAPI.Models;
 using concesionarioAPI.Services;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace concesionarioAPI.Controllers
@@ -10,46 +9,34 @@ namespace concesionarioAPI.Controllers
     public class AutosController : ControllerBase
     {
         private readonly AutoServices _autoServices;
-        public AutosController()
-        {
-            _autoServices = new AutoServices();
+        public AutosController(AutoServices autoServices) {
+            _autoServices = autoServices;
         }
-
 
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public ActionResult<List<Auto>> Get()
-        { 
+        {
             var autos = _autoServices.GetAll();
             return Ok(autos);
         }
 
-        /*
-        [HttpGet]
+        [HttpGet("{id}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public ActionResult<Auto> GetOne()
+        public ActionResult<Auto> Get(int id)
         {
-            bool result = false;
-            var auto = new Auto
+            try
             {
-                Marca = "Ford",
-                Modelo = "Ka",
-                CantPuertas = 1,
-                Transmision = "Manual",
-                TipoCombustible = "Diesel",
-                TieneEstereo = false
-            };
-            if (result)
-            {
+                var auto = _autoServices.GetOneById(id);
                 return Ok(auto);
-            }
-            else
-            {
-                return NotFound(new { Message = "El Auto no se encontró!" });
-            }
-        }
-        */
 
+            }
+            catch
+            {
+                return NotFound(new { Message = $"No se econtro el auto con Id = {id}" });
+            }
+
+        }
     }
 }
