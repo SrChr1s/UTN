@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Horizontal Cards</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+
+    <script type="text/babel">
+      const rootEl = document.querySelector("#root");
+      const root = ReactDOM.createRoot(rootEl);
+
+      function Card({ text }) {
+        return (
+          <section className="card">
+            <p className="title">{text}</p>
+          </section>
+        );
+      }
+
+      function CardsContainer({ children }) {
+        return <main className="container">{children}</main>;
+      }
+
+      function App() {
+        return (
+          <CardsContainer>
+            <Card text="Rich Sanchez" />
+            <Card text="Morty Smith" />
+            <Card text="Summer Smith" />
+            <Card text="Beth Smith" />
+            <Card text="Joe Doe" />
+            <Card text="Jane Doe" />
+            <Card text="John Doe" />
+          </CardsContainer>
+        );
+      }
+
+      root.render(<App />);
+    </script>
+
+    <!-- <div class="container">
+      <div class="card">
+        <p class="title">Rick Sanchez</p>
+      </div>
+      <div class="card">
+        <p class="title">Morty Smith</p>
+      </div>
+      <div class="card">
+        <p class="title">Summer Smith</p>
+      </div>
+      <div class="card">
+        <p class="title">Beth Smith</p>
+      </div>
+      <div class="card">
+        <p class="title">Joe Doe</p>
+      </div>
+      <div class="card">
+        <p class="title">Jane Doe</p>
+      </div>
+      <div class="card">
+        <p class="title">John Doe</p>
+      </div>
+    </div> -->
+  </body>
+</html>

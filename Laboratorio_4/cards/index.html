@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cards</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="root"></div>
+    
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+
+    <script type="text/babel">
+      const rootEl = document.querySelector("#root");
+      const root = ReactDOM.createRoot(rootEl);
+
+      // props -> propiedad --- Atributos en HTML
+      function Card({ text }){
+        return (
+          <section className="card">
+              <span>{text}</span>
+            </section>
+        );
+      }
+
+      function CardsContainer({ children }){
+        return <main className="container">{children}</main>;
+      }
+
+      function App() {
+        return (
+          <CardsContainer>
+            <Card text="Card 1"/>
+            <Card text="Card 2"/>
+            <Card text="Card 3"/>
+          </CardsContainer>
+        );
+      }
+
+      root.render(<App/>)
+    </script>
+  </body>
+</html>
