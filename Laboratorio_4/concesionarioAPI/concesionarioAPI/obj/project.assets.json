@@ -663,19 +663,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "C:\\Users\\csalazarontiveros\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\source\\repos\\concesionarioAPI\\concesionarioAPI\\concesionarioAPI.csproj",
+      "projectUniqueName": "C:\\Users\\csalazarontiveros\\Desktop\\UTN\\Laboratorio_4\\concesionarioAPI\\concesionarioAPI\\concesionarioAPI.csproj",
       "projectName": "concesionarioAPI",
-      "projectPath": "C:\\Users\\user\\source\\repos\\concesionarioAPI\\concesionarioAPI\\concesionarioAPI.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\source\\repos\\concesionarioAPI\\concesionarioAPI\\obj\\",
+      "projectPath": "C:\\Users\\csalazarontiveros\\Desktop\\UTN\\Laboratorio_4\\concesionarioAPI\\concesionarioAPI\\concesionarioAPI.csproj",
+      "packagesPath": "C:\\Users\\csalazarontiveros\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\csalazarontiveros\\Desktop\\UTN\\Laboratorio_4\\concesionarioAPI\\concesionarioAPI\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\csalazarontiveros\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -683,7 +688,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -696,11 +700,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -735,7 +734,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   },
