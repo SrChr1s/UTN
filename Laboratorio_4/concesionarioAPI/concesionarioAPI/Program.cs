@@ -1,4 +1,6 @@
+using concesionarioAPI.Config;
 using concesionarioAPI.Services;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +13,15 @@ builder.Services.AddSwaggerGen();
 
 // Services: Agregamos los servicios al scope para utilizar Inyección de Depndencias.
 builder.Services.AddScoped<AutoServices>();
+
+// AutoMapper
+builder.Services.AddAutoMapper(typeof(Mapper));
+
+// SQL Server
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection"));
+});
 
 var app = builder.Build();
 

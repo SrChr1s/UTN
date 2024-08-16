@@ -2,6 +2,7 @@
 using concesionarioAPI.Models.Auto.Dto;
 using concesionarioAPI.Services;
 using Microsoft.AspNetCore.Mvc;
+using System.Web.Http.Results;
 
 namespace concesionarioAPI.Controllers
 {
@@ -31,43 +32,68 @@ namespace concesionarioAPI.Controllers
             {
                 var auto = _autoServices.GetOneById(id);
                 return Ok(auto);
+
             }
             catch
             {
                 return NotFound(new { Message = $"No se econtro el auto con Id = {id}" });
             }
-
         }
 
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status201Created)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public ActionResult<Auto> Post([FromBody] CreateAutoDTO createAutoDto)
         {
             try
             {
                 var auto = _autoServices.CreateOne(createAutoDto);
-                return Created("Auto created", auto);
+                // EL primer parametro del 'Created' es para decirce donde se creo el recurso.
+                // La función nameof() obtiene el punto de entrada de lo que pasemos y devuelve una cadena de texto.
+                // Tranquilamente le podemos pasar un texto: Created("Auto created", auto);
+                return Created(nameof(Post), auto);
+
             }
             catch (Exception ex)
             {
                 return BadRequest(ex.Message);
             }
+
         }
 
         [HttpPut("{id}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public ActionResult<Auto> Put(int id, [FromBody] UpdateAutoDTO updateAutoDto)
         {
             try
             {
                 var auto = _autoServices.UpdateOneById(id, updateAutoDto);
                 return Ok(auto);
+
             }
             catch (Exception ex)
             {
                 return BadRequest(ex.Message);
+            }
+
+        }
+
+        [HttpDelete("{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public ActionResult Delete(int id)
+        {
+            try
+            {
+                _autoServices.DeleteOneById(id);
+                // return NoContent();
+                return Ok(new {Message = $"Auto con ID {id} fue eliminado!"});
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
         }
     }

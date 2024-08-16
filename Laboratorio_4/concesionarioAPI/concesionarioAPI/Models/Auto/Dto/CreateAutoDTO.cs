@@ -1,5 +1,6 @@
 ﻿namespace concesionarioAPI.Models.Auto.Dto
 {
+    // DTO para crear un nuevo Auto, los campos Id y FechaFabricacion se crearan automáticamente
     public class CreateAutoDTO
     {
         public string Marca { get; set; } = null!;

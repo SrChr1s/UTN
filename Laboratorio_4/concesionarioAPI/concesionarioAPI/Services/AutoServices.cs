@@ -1,13 +1,20 @@
-﻿using concesionarioAPI.Models.Auto;
+﻿using AutoMapper;
+using concesionarioAPI.Models.Auto;
 using concesionarioAPI.Models.Auto.Dto;
 using System.Net;
-using System.Runtime.CompilerServices;
 using System.Web.Http;
 
 namespace concesionarioAPI.Services
 {
     public class AutoServices
     {
+        private readonly IMapper _mapper;
+
+        public AutoServices(IMapper mapper)
+        {
+            _mapper = mapper;
+        }
+
         public static List<Auto> autos = new List<Auto>
         {
             new Auto
@@ -69,13 +76,7 @@ namespace concesionarioAPI.Services
 
         public List<AutosDTO> GetAll()
         {
-            return autos.Select(auto => new AutosDTO
-            {
-                Id = auto.Id,
-                Marca = auto.Marca,
-                Modelo = auto.Modelo,
-                FechaFabricacion = auto.FechaFabricacion
-            }).ToList();
+            return _mapper.Map<List<AutosDTO>>(autos);
         }
 
         public Auto GetOneById(int id)
@@ -90,20 +91,11 @@ namespace concesionarioAPI.Services
 
         public Auto CreateOne(CreateAutoDTO createAutoDto)
         {
-            int lastIndex = GetAll().Last().Id;
-            Auto auto = new Auto
-            {
-                Id = lastIndex + 1,
-                Marca = createAutoDto.Marca,
-                Modelo = createAutoDto.Modelo,
-                TipoCombustible = createAutoDto.TipoCombustible,
-                Transmision = createAutoDto.Transmision,
-                TieneEstereo = createAutoDto.TieneEstereo,
-                CantidadPuertas = createAutoDto.CantidadPuertas
-            };
-            
+            int LastIndex = GetAll().Last().Id;
+            var auto = _mapper.Map<Auto>(createAutoDto);
+            auto.Id = LastIndex + 1;
+
             autos.Add(auto);
-            
             return auto;
         }
 
@@ -111,25 +103,15 @@ namespace concesionarioAPI.Services
         {
             var auto = GetOneById(id);
 
-            if (updateAutoDto.TipoCombustible != null)
-            {
-                auto.TipoCombustible = updateAutoDto.TipoCombustible;
-            }
-            if (updateAutoDto.TieneEstereo != null)
-            {
-                auto.TieneEstereo = (bool)updateAutoDto.TieneEstereo;
-            }
-            if (updateAutoDto.CantidadPuertas != null)
-            {
-                auto.CantidadPuertas = (int)updateAutoDto.CantidadPuertas;
-            }
+            var autoMapped = _mapper.Map(updateAutoDto, auto);
 
-            return auto;
+            return autoMapped;
         }
 
-        public Auto DeleteOneById(int id)
+        public void DeleteOneById(int id)
         {
-
+            Auto auto = GetOneById(id);
+            autos.Remove(auto);
         }
     }
 }
