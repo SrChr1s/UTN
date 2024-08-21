@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\csalazarontiveros\\Desktop\\UTN\\Laboratorio_4\\concesionarioAPI\\concesionarioAPI\\concesionarioAPI.csproj": {}
+    "C:\\Users\\user\\source\\repos\\concesionarioAPI\\concesionarioAPI\\concesionarioAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\csalazarontiveros\\Desktop\\UTN\\Laboratorio_4\\concesionarioAPI\\concesionarioAPI\\concesionarioAPI.csproj": {
+    "C:\\Users\\user\\source\\repos\\concesionarioAPI\\concesionarioAPI\\concesionarioAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\csalazarontiveros\\Desktop\\UTN\\Laboratorio_4\\concesionarioAPI\\concesionarioAPI\\concesionarioAPI.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\repos\\concesionarioAPI\\concesionarioAPI\\concesionarioAPI.csproj",
         "projectName": "concesionarioAPI",
-        "projectPath": "C:\\Users\\csalazarontiveros\\Desktop\\UTN\\Laboratorio_4\\concesionarioAPI\\concesionarioAPI\\concesionarioAPI.csproj",
-        "packagesPath": "C:\\Users\\csalazarontiveros\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\csalazarontiveros\\Desktop\\UTN\\Laboratorio_4\\concesionarioAPI\\concesionarioAPI\\obj\\",
+        "projectPath": "C:\\Users\\user\\source\\repos\\concesionarioAPI\\concesionarioAPI\\concesionarioAPI.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\source\\repos\\concesionarioAPI\\concesionarioAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\csalazarontiveros\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,6 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -48,19 +54,9 @@
               "target": "Package",
               "version": "[5.3.0, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[7.0.20, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.20, )"
-            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.5.0, )"
+              "version": "[6.7.1, )"
             }
           },
           "imports": [
@@ -82,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

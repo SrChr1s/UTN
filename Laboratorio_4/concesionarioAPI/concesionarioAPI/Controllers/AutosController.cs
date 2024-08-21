@@ -2,7 +2,6 @@
 using concesionarioAPI.Models.Auto.Dto;
 using concesionarioAPI.Services;
 using Microsoft.AspNetCore.Mvc;
-using System.Web.Http.Results;
 
 namespace concesionarioAPI.Controllers
 {
@@ -76,25 +75,26 @@ namespace concesionarioAPI.Controllers
             {
                 return BadRequest(ex.Message);
             }
-
         }
 
         [HttpDelete("{id}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public ActionResult Delete(int id)
         {
             try
             {
                 _autoServices.DeleteOneById(id);
+                return Ok(new {Message = $"El Auto con el Id = {id} fue eliminado!"});
+                // tambien se puede devolver un 'no content 204'
                 // return NoContent();
-                return Ok(new {Message = $"Auto con ID {id} fue eliminado!"});
+
             }
             catch (Exception ex)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+                return NotFound(ex.Message);
             }
+
         }
     }
 }

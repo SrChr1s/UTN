@@ -1,6 +1,6 @@
 ﻿namespace concesionarioAPI.Models.Auto.Dto
 {
-    // Este DTO se utilzará para actualizar los datos. Con el signo de pregunta (?) indicamos que el campo puede ser opcional o nulo.
+    // Este DTO se utilizará para actualizar los datos. Con el signo de pregunta (?) indicamos que el campo puede ser opcional o nulo.
     public class UpdateAutoDTO
     {
         public string? Marca { get; set; }

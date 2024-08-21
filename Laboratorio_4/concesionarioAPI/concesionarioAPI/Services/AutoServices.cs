@@ -8,7 +8,7 @@ namespace concesionarioAPI.Services
 {
     public class AutoServices
     {
-        private readonly IMapper _mapper;
+        private IMapper _mapper;
 
         public AutoServices(IMapper mapper)
         {
@@ -92,7 +92,7 @@ namespace concesionarioAPI.Services
         public Auto CreateOne(CreateAutoDTO createAutoDto)
         {
             int LastIndex = GetAll().Last().Id;
-            var auto = _mapper.Map<Auto>(createAutoDto);
+            Auto auto = _mapper.Map<Auto>(createAutoDto);
             auto.Id = LastIndex + 1;
 
             autos.Add(auto);
@@ -101,7 +101,7 @@ namespace concesionarioAPI.Services
 
         public Auto UpdateOneById(int id, UpdateAutoDTO updateAutoDto)
         {
-            var auto = GetOneById(id);
+            Auto auto = GetOneById(id);
 
             var autoMapped = _mapper.Map(updateAutoDto, auto);
 
@@ -110,8 +110,10 @@ namespace concesionarioAPI.Services
 
         public void DeleteOneById(int id)
         {
-            Auto auto = GetOneById(id);
+            var auto = GetOneById(id);
+
             autos.Remove(auto);
         }
+
     }
 }

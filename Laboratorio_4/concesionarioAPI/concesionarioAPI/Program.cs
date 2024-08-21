@@ -1,6 +1,5 @@
 using concesionarioAPI.Config;
 using concesionarioAPI.Services;
-using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,13 +14,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<AutoServices>();
 
 // AutoMapper
-builder.Services.AddAutoMapper(typeof(Mapper));
-
-// SQL Server
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-{
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection"));
-});
+builder.Services.AddAutoMapper(typeof(Mapping));
 
 var app = builder.Build();
 
