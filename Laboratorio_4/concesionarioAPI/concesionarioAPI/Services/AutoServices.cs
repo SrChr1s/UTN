@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
+using concesionarioAPI.Config;
 using concesionarioAPI.Models.Auto;
 using concesionarioAPI.Models.Auto.Dto;
+using concesionarioAPI.Utils.Exceptions;
 using System.Net;
 using System.Web.Http;
 
@@ -8,111 +10,68 @@ namespace concesionarioAPI.Services
 {
     public class AutoServices
     {
-        private IMapper _mapper;
+        private readonly IMapper _mapper;
+        private readonly ApplicationDbContext _db;
+        private readonly CombustibleServices _combustibleServices;
 
-        public AutoServices(IMapper mapper)
+        public AutoServices(IMapper mapper, ApplicationDbContext db, CombustibleServices combustibleServices)
         {
             _mapper = mapper;
+            _db = db;
+            _combustibleServices = combustibleServices;
         }
 
-        public static List<Auto> autos = new List<Auto>
+        private Auto GetOneByIdOrException(int id)
         {
-            new Auto
-            {
-                Id = 1,
-                Marca = "Toyota",
-                Modelo = "Corolla",
-                TipoCombustible = "Gasolina",
-                Transmision = "Automática",
-                TieneEstereo = true,
-                CantidadPuertas = 4,
-                FechaFabricacion = new DateTime(2020, 5, 14)
-            },
-            new Auto
-            {
-                Id = 2,
-                Marca = "Honda",
-                Modelo = "Civic",
-                TipoCombustible = "Gasolina",
-                Transmision = "Manual",
-                TieneEstereo = true,
-                CantidadPuertas = 4,
-                FechaFabricacion = new DateTime(2019, 7, 21)
-            },
-            new Auto
-            {
-                Id = 3,
-                Marca = "Ford",
-                Modelo = "Focus",
-                TipoCombustible = "Diesel",
-                Transmision = "Automática",
-                TieneEstereo = false,
-                CantidadPuertas = 4,
-                FechaFabricacion = new DateTime(2021, 3, 10)
-            },
-            new Auto
-            {
-                Id = 4,
-                Marca = "Chevrolet",
-                Modelo = "Cruze",
-                TipoCombustible = "Gasolina",
-                Transmision = "Automática",
-                TieneEstereo = true,
-                CantidadPuertas = 4,
-                FechaFabricacion = new DateTime(2022, 11, 5)
-            },
-            new Auto
-            {
-                Id = 5,
-                Marca = "Volkswagen",
-                Modelo = "Golf",
-                TipoCombustible = "Gasolina",
-                Transmision = "Manual",
-                TieneEstereo = false,
-                CantidadPuertas = 4,
-                FechaFabricacion = new DateTime(2018, 2, 28)
-            }
-        };
-
-        public List<AutosDTO> GetAll()
-        {
-            return _mapper.Map<List<AutosDTO>>(autos);
-        }
-
-        public Auto GetOneById(int id)
-        {
-            var auto = autos.FirstOrDefault(auto => auto.Id == id);
+            var auto = _db.Autos.FirstOrDefault(auto => auto.Id == id);
             if (auto == null)
             {
-                throw new HttpResponseException(HttpStatusCode.NotFound);
+                throw new CustomHttpException($"No se econtro el auto con Id = {id}", HttpStatusCode.NotFound);
             }
             return auto;
         }
 
+        public List<AutosDTO> GetAll()
+        {
+            var autos = _db.Autos.Select(a => a).ToList();
+            return _mapper.Map<List<AutosDTO>>(autos);
+        }
+
+        public AutoDTO GetOneById(int id)
+        {
+            var auto = GetOneByIdOrException(id);
+            var combustible = _combustibleServices.GetOneById(auto.CombustibleId);
+            auto.Combustible = combustible;
+            return _mapper.Map<AutoDTO>(auto);
+        }
+
         public Auto CreateOne(CreateAutoDTO createAutoDto)
         {
-            int LastIndex = GetAll().Last().Id;
             Auto auto = _mapper.Map<Auto>(createAutoDto);
-            auto.Id = LastIndex + 1;
 
-            autos.Add(auto);
+            _db.Autos.Add(auto);
+            _db.SaveChanges();
             return auto;
         }
 
         public Auto UpdateOneById(int id, UpdateAutoDTO updateAutoDto)
         {
-            Auto auto = GetOneById(id);
+            Auto auto = GetOneByIdOrException(id);
 
             var autoMapped = _mapper.Map(updateAutoDto, auto);
+
+            _db.Autos.Update(autoMapped);
+            _db.SaveChanges();
 
             return autoMapped;
         }
 
         public void DeleteOneById(int id)
         {
-            var auto = GetOneById(id);
+            var auto = GetOneByIdOrException(id);
 
-            autos.Remove(auto);
+            _db.Autos.Remove(auto);
+            _db.SaveChanges();
         }
 
     }

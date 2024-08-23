@@ -12,7 +12,7 @@ using concesionarioAPI.Config;
 namespace concesionarioAPI.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240816185009_DbCreated")]
+    [Migration("20240821173959_DbCreated")]
     partial class DbCreated
     {
         /// <inheritdoc />

@@ -1,4 +1,5 @@
 ﻿using concesionarioAPI.Models.Auto;
+using concesionarioAPI.Models.Combustible;
 using Microsoft.EntityFrameworkCore;
 
 namespace concesionarioAPI.Config
@@ -6,7 +7,9 @@ namespace concesionarioAPI.Config
     public class ApplicationDbContext : DbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
-        public DbSet<Auto> Autos {  get; set; }
+
+        public DbSet<Auto> Autos { get; set; }
+        public DbSet<Combustible> Combustibles { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -16,7 +19,7 @@ namespace concesionarioAPI.Config
                     Id = 1,
                     Marca = "Toyota",
                     Modelo = "Corolla",
-                    TipoCombustible = "Gasolina",
+                    CombustibleId = 1,
                     Transmision = "Automática",
                     TieneEstereo = true,
                     CantidadPuertas = 4,
@@ -27,7 +30,7 @@ namespace concesionarioAPI.Config
                     Id = 2,
                     Marca = "Honda",
                     Modelo = "Civic",
-                    TipoCombustible = "Gasolina",
+                    CombustibleId = 1,
                     Transmision = "Manual",
                     TieneEstereo = true,
                     CantidadPuertas = 4,
@@ -38,7 +41,7 @@ namespace concesionarioAPI.Config
                     Id = 3,
                     Marca = "Ford",
                     Modelo = "Focus",
-                    TipoCombustible = "Diesel",
+                    CombustibleId = 2,
                     Transmision = "Automática",
                     TieneEstereo = false,
                     CantidadPuertas = 4,
@@ -49,7 +52,7 @@ namespace concesionarioAPI.Config
                     Id = 4,
                     Marca = "Chevrolet",
                     Modelo = "Cruze",
-                    TipoCombustible = "Gasolina",
+                    CombustibleId = 1,
                     Transmision = "Automática",
                     TieneEstereo = true,
                     CantidadPuertas = 4,
@@ -60,12 +63,19 @@ namespace concesionarioAPI.Config
                     Id = 5,
                     Marca = "Volkswagen",
                     Modelo = "Golf",
-                    TipoCombustible = "Gasolina",
+                    CombustibleId = 1,
                     Transmision = "Manual",
                     TieneEstereo = false,
                     CantidadPuertas = 4,
                     FechaFabricacion = new DateTime(2018, 2, 28)
                 }
+            );
+
+            modelBuilder.Entity<Combustible>().HasData(
+                new Combustible { Id = 1, Nombre = "Gasolina" },
+                new Combustible { Id = 2, Nombre = "Diesel" },
+                new Combustible { Id = 3, Nombre = "Gas" },
+                new Combustible { Id = 4, Nombre = "Electricidad" }
             );
         }
     }

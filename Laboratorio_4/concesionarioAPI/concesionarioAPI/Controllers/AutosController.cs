@@ -1,6 +1,7 @@
 ﻿using concesionarioAPI.Models.Auto;
 using concesionarioAPI.Models.Auto.Dto;
 using concesionarioAPI.Services;
+using concesionarioAPI.Utils.Exceptions;
 using Microsoft.AspNetCore.Mvc;
 
 namespace concesionarioAPI.Controllers
@@ -24,8 +25,9 @@ namespace concesionarioAPI.Controllers
 
         [HttpGet("{id}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public ActionResult<Auto> Get(int id)
+        [ProducesResponseType(typeof(CustomMessage), StatusCodes.Status404NotFound)]
+        [ProducesResponseType(typeof(CustomMessage), StatusCodes.Status500InternalServerError)]
+        public ActionResult<AutoDTO> Get(int id)
         {
             try
             {
@@ -33,19 +35,26 @@ namespace concesionarioAPI.Controllers
                 return Ok(auto);
 
             }
-            catch
+            catch (CustomHttpException ex)
             {
-                return NotFound(new { Message = $"No se econtro el auto con Id = {id}" });
+                return StatusCode((int)ex.StatusCode, new CustomMessage(ex.Message));
+            }
+            catch (Exception ex) { 
+                return StatusCode(StatusCodes.Status500InternalServerError, new CustomMessage(ex.Message));
             }
         }
 
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status201Created)]
-        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public ActionResult<Auto> Post([FromBody] CreateAutoDTO createAutoDto)
         {
             try
             {
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
                 var auto = _autoServices.CreateOne(createAutoDto);
                 // EL primer parametro del 'Created' es para decirce donde se creo el recurso.
                 // La función nameof() obtiene el punto de entrada de lo que pasemos y devuelve una cadena de texto.
@@ -62,24 +71,29 @@ namespace concesionarioAPI.Controllers
 
         [HttpPut("{id}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status403Forbidden)]
+        [ProducesResponseType(typeof(CustomMessage), StatusCodes.Status404NotFound)]
         public ActionResult<Auto> Put(int id, [FromBody] UpdateAutoDTO updateAutoDto)
         {
             try
             {
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
                 var auto = _autoServices.UpdateOneById(id, updateAutoDto);
                 return Ok(auto);
 
             }
-            catch (Exception ex)
+            catch (CustomHttpException ex)
             {
-                return BadRequest(ex.Message);
+                return StatusCode((int)ex.StatusCode, new CustomMessage(ex.Message));
             }
         }
 
         [HttpDelete("{id}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(typeof(CustomMessage), StatusCodes.Status404NotFound)]
         public ActionResult Delete(int id)
         {
             try
@@ -90,9 +104,9 @@ namespace concesionarioAPI.Controllers
                 // return NoContent();
 
             }
-            catch (Exception ex)
+            catch (CustomHttpException ex)
             {
-                return NotFound(ex.Message);
+                return StatusCode((int)ex.StatusCode, new CustomMessage(ex.Message));
             }
 
         }

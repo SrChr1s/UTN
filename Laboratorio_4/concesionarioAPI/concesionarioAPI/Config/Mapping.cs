@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
 using concesionarioAPI.Models.Auto;
 using concesionarioAPI.Models.Auto.Dto;
+using concesionarioAPI.Models.Combustible;
+using concesionarioAPI.Models.Combustible.Dto;
 
 namespace concesionarioAPI.Config
 {
@@ -18,6 +20,7 @@ namespace concesionarioAPI.Config
 
             //PD: Esta solución hay que aplicarla para todos aquellos tipos que no tengan como valor por defecto 'null'
 
+            CreateMap<Auto, AutoDTO>().ReverseMap();
             CreateMap<Auto, AutosDTO>().ReverseMap();
             CreateMap<Auto, CreateAutoDTO>().ReverseMap();
 
@@ -28,6 +31,14 @@ namespace concesionarioAPI.Config
                     opts.Condition((src, dest, srcMember) => srcMember != null);
                 });
 
+
+            // Combustibles
+            CreateMap<CreateCombustibleDTO, Combustible>().ReverseMap();
+            CreateMap<UpdateCombustibleDTO, Combustible>()
+                .ForAllMembers(opts =>
+                {
+                    opts.Condition((src, dest, srcMember) => srcMember != null);
+                });
         }
     }
 }
