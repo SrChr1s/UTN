@@ -2,7 +2,7 @@
 --select format(p.fnacto, 'yyyy') as Fecha, count(format(p.fnacto, 'yyyy')) as Cantidad from persona as p group by format(p.fnacto, 'yyyy')
 --select * from persona where format(persona.fnacto, 'yyyy') = '1980'
 
-/*CREATE PROCEDURE I_Persona
+CREATE PROCEDURE D_Persona
 	 @apellido VARCHAR(128),
      @nombre VARCHAR(128),
 	 @dni INT,
@@ -25,7 +25,7 @@ BEGIN
      EXECUTE GetErrorInfo_sp
   END CATCH 
 END
-*/
+
 
 /*
 Begin
